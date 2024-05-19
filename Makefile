@@ -18,3 +18,6 @@ validate:
 
 list:
 	$(PYTHON) lib/list.py
+
+remover:
+	$(PYTHON) lib/remover.py
