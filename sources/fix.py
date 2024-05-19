@@ -1,6 +1,7 @@
 import json
 import argparse
 
+# In your output for list, add image after | and then run this file to fix your files
 # python3 fix.py input_json_file.json images_file.txt output_json_file.json
 
 def update_json_with_images(json_file, text_file, output_file):
