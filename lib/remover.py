@@ -32,7 +32,7 @@ all_faulty_templates = []
 # Process each JSON file in the directory
 for root, _, files in os.walk(directory):
     for filename in files:
-        if filename.endswith('.json'):
+        if filename.endswith('.json') and filename != 'all_errors.json':  # Skip the all_errors.json file
             filepath = os.path.join(root, filename)
             
             # Load the JSON file
