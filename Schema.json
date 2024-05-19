@@ -15,9 +15,8 @@
         "properties": {
           "type": {
             "type": "integer",
-            "minimum": 1,
-            "maximum": 2,
-            "description": "The type of the application (1 for container, 2 for swarm stack)."
+            "enum": [1, 2, 3],
+            "description": "The type of the application (1 for container, 2 for swarm stack, 3 for compose stack)."
           },
           "title": {
             "type": "string",
@@ -39,8 +38,8 @@
           },
           "platform": {
             "type": "string",
-            "minLength": 1,
-            "description": "The target platform of the application (e.g., 'linux', 'windows')."
+            "enum": ["linux", "windows"],
+            "description": "The target platform of the application."
           },
           "logo": {
             "type": "string",
@@ -61,7 +60,7 @@
             "type": "array",
             "items": {
               "type": "string",
-              "pattern": "^[0-9]+:[0-9]+(/tcp|/udp)?$",
+              "pattern": "([0-9]*:?[0-9]+)(/tcp|/udp)?$",
               "description": "A port mapping in the format 'hostPort:containerPort/protocol'."
             },
             "description": "An array of port mappings for the application."
@@ -80,9 +79,13 @@
                   "type": "string",
                   "minLength": 1,
                   "description": "The container path for the volume binding."
+                },
+                "readonly": {
+                  "type": "boolean",
+                  "description": "Whether the volume is read-only."
                 }
               },
-              "required": ["bind", "container"]
+              "required": ["container"]
             },
             "description": "An array of volume mappings for the application."
           },
@@ -97,16 +100,72 @@
                   "description": "The name of the environment variable."
                 },
                 "label": {
-                  "type": "string"
+                  "type": "string",
+                  "description": "Label for the input in the UI."
+                },
+                "description": {
+                  "type": "string",
+                  "description": "A short description for this input."
+                },
+                "default": {
+                  "type": "string",
+                  "description": "Default value associated with the variable."
+                },
+                "preset": {
+                  "type": "boolean",
+                  "description": "If true, the UI will not generate an input."
+                },
+                "select": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string",
+                        "description": "Display text for the select option."
+                      },
+                      "value": {
+                        "type": "string",
+                        "description": "Value for the select option."
+                      },
+                      "default": {
+                        "type": "boolean",
+                        "description": "If true, this is the default option."
+                      }
+                    },
+                    "required": ["text", "value"]
+                  },
+                  "description": "Array of possible values for a select input."
                 }
+              },
+              "required": ["name"]
+            },
+            "description": "An array of environment variables for the application."
+          },
+          "administrator-only": {
+            "type": "boolean",
+            "description": "Indicates whether the template should be available only to admin users."
+          },
+          "repository": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "description": "URL of the public Git repository."
+              },
+              "stackfile": {
+                "type": "string",
+                "description": "Path to the Compose file inside the repository."
               }
-            }
+            },
+            "required": ["url", "stackfile"],
+            "description": "A JSON object describing the public Git repository from where the stack template will be loaded."
           }
         },
-        "required": ["type", "title", "description", "categories", "platform", "logo", "image"]
+        "required": ["type", "title", "description", "categories", "image"]
       }
     }
   },
   "required": ["version", "templates"]
 }
-
