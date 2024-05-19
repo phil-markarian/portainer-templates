@@ -8,7 +8,23 @@
 </p>
 
 > **TL;DR** Under Settings → App Templates in your Portainer GUI, paste this URL:<br>
-> `https://raw.githubusercontent.com/Lissy93/portainer-templates/main/templates.json`<br>
+> `https://raw.githubusercontent.com/phil-markarian/portainer-templates/main/templates.json`<br>
+
+## ## Fork Notice
+
+This repository is a fork of the [original project](https://github.com/original/project). It includes custom modifications and fixes for personal use. Below you will find the original credits and additional information about the changes made in this fork.
+
+## Changes Made
+
+- Updated Schema to reflect Portainer version 2.19s requirement for template files. 
+	- added regrex for ports so it relatively lax
+- Updated the validator script so that it catches all errors and outputs them to the terminal.
+- Added a remover script that removes any bad templates from before you combine your templates with the combine script. 
+	- It makes a new folder with the name of your template file and makes individual json files for each template that is currently not working.
+	- Adds the error as a comment at the top of the template.
+	- Creates a file that has all of the error templates for quick searching.
+- Added other scripts in sources folder to help fix and organize templates. Will add more details later.
+
 
 
 <details>
@@ -43,7 +59,7 @@ You can browse all supported apps and stacks and see stats, config options and s
 
 1. Log into your Portainer web UI
 2. Under <ins>Settings</ins> --> <ins>App Templates</ins>, update the URL to
-    - `https://raw.githubusercontent.com/Lissy93/portainer-templates/main/templates.json`
+    - `https://raw.githubusercontent.com/phil-markarian/portainer-templates/main/templates.json`
 3. Now under <ins>Home</ins> --> <ins>App Templates</ins>, you should see all apps. Click one to deploy.
 
 <details>
@@ -60,13 +76,13 @@ Alternatively, when you start Portainer, you can append the `--templates` flag p
 ## Self-Hosting
 
 If you'd prefer to source templates locally, you can self-host with Docker - there's a sample NGINX container provided<br>
-Just run: `docker run -p 8080:80 lissy93/portainer-templates` (changing 8080 to a port of your choice)<br>
+Just run: `docker run -p 8080:80 phil-markarian/portainer-templates` (changing 8080 to a port of your choice)<br>
 You'll then be able to pass Portainer the template file located at `http://[host]:[port]/templates.json`<br>
 
-Alternatively, you can build the image yourself locally, with the following commands (if you're using your own fork, don't forget to switch `lissy93` out for your username!)
+Alternatively, you can build the image yourself locally, with the following commands (if you're using your own fork, don't forget to switch `phil-markarian` out for your username!)
 
 ```bash
-git clone https://github.com/lissy93/portainer-templates.git
+git clone https://github.com/phil-markarian/portainer-templates.git
 cd portainer-templates
 docker build -t portainer-templates .
 docker run -d -p "8080:80" portainer-templates
@@ -720,14 +736,7 @@ Note that it's not required to make any changes to the website when adding a new
 
 ---
 
-## Mirror
 
-There's a mirror of this repository, maintained on CodeBerg at: **[codeberg.org/alicia/portainer-templates](https://codeberg.org/alicia/portainer-templates)**
-
-To pull templates from there, instead of GitHub, use this URL in your Portainer instance instead:
-
-```
-https://codeberg.org/alicia/portainer-templates/raw/branch/main/templates.json
 ```
 
 ---
@@ -1033,29 +1042,38 @@ PARTICULAR PURPOSE AND NON INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRI
 HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Additional Modifications Copyright (c) [2024] [Phil Markarian] Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
 </details>
 
-<!-- License + Copyright -->
-<p  align="center">
-  <i>© <a href="https://aliciasykes.com">Alicia Sykes</a> 2023</i><br>
-  <i>Licensed under <a href="https://gist.github.com/Lissy93/143d2ee01ccc5c052a17">MIT</a></i><br>
-  <a href="https://github.com/lissy93"><img src="https://i.ibb.co/4KtpYxb/octocat-clean-mini.png" /></a><br>
-  <sup>Thanks for visiting :)</sup>
-</p>
+<!-- License + Copyright --> <p align="center"> <i>© <a href="https://aliciasykes.com">Alicia Sykes</a> 2023</i><br> <i>Licensed under <a href="https://gist.github.com/Lissy93/143d2ee01ccc5c052a17">MIT</a></i><br> <a href="https://github.com/lissy93"><img src="https://i.ibb.co/4KtpYxb/octocat-clean-mini.png" /></a><br> <sup>Thanks for visiting :)</sup> </p> <p align="center"> <i>Modifications by <a href="https://github.com/phil-markarian">Phil Markarian</a> © 2024</i><br> <i>Licensed under <a href="https://opensource.org/licenses/MIT">MIT</a></i><br> </p>
 
-<!-- Dinosaur -->
-<!-- 
-                        . - ~ ~ ~ - .
-      ..     _      .-~               ~-.
-     //|     \ `..~                      `.
-    || |      }  }              /       \  \
-(\   \\ \~^..'                 |         }  \
- \`.-~  o      /       }       |        /    \
- (__          |       /        |       /      `.
-  `- - ~ ~ -._|      /_ - ~ ~ ^|      /- _      `.
-              |     /          |     /     ~-.     ~- _
-              |_____|          |_____|         ~ - . _ _~_-_
+<!-- Curious George -->
+<!--
+               __
+             .'  '.
+            :      :
+            | _  _ |
+         .-.|(o)(o)|.-.       _
+        (   |  __  |   )     //
+         '-/ \____/ \-'     //
+          //  `----'\\     //
+         |||   .'.   |||   //
+         |||  :   :  |||  //
+         |||  :   :  ||| ((
+         |||  :   :  |||  \\
+         |||  :___:  |||   ))
+          \\       //     //
+           \'-'-'-'/     //
+            '-- --'     //
+             || ||     ||
+             || ||     ||
+             || ||     ||    -HERSHEY
+             || ||     ||
+          __ || || __ ||
+         /___|| ||___|| 
 -->
+
 
