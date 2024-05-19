@@ -12,7 +12,7 @@
 
 ## Fork Notice
 
-This repository is a fork of the [original project](https://github.com/original/project). It includes custom modifications and fixes for personal use. Below you will find the original credits and additional information about the changes made in this fork.
+This repository is a fork of the [original project](https://github.com/Lissy93/portainer-templates). It includes custom modifications and fixes for personal use. Below you will find the original credits and additional information about the changes made in this fork.
 
 ## Changes Made
 
