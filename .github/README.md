@@ -10,7 +10,7 @@
 > **TL;DR** Under Settings → App Templates in your Portainer GUI, paste this URL:<br>
 > `https://raw.githubusercontent.com/phil-markarian/portainer-templates/main/templates.json`<br>
 
-## ## Fork Notice
+## Fork Notice
 
 This repository is a fork of the [original project](https://github.com/original/project). It includes custom modifications and fixes for personal use. Below you will find the original credits and additional information about the changes made in this fork.
 
