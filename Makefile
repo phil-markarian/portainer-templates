@@ -15,7 +15,7 @@ validate:
 	$(PYTHON) lib/validate.py
 
 readme_list:
-	$(PYTHON) lib/list.py
+	$(PYTHON) lib/readme_list.py
 
 init_and_update:
 	$(PYTHON) lib/init_and_update.py
