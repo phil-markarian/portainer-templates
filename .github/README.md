@@ -19,11 +19,21 @@ This repository is a fork of the [original project](https://github.com/Lissy93/p
 - Updated Schema to reflect Portainer version 2.19s requirement for template files. 
 	- added regrex for ports so it relatively lax
 - Updated the validator script so that it catches all errors and outputs them to the terminal.
-- Added a remover script that removes any bad templates from before you combine your templates with the combine script. 
-	- It makes a new folder with the name of your template file and makes individual json files for each template that is currently not working.
-	- Adds the error as a comment at the top of the template.
-	- Creates a file that has all of the error templates for quick searching.
-- Added other scripts in sources folder to help fix and organize templates. Will add more details later.
+- Changed the download script to init_and_update
+    - Allows you to initialize templates in your source files.
+    - Creates a log so you can fix any issues when downloading templates.
+    - Fixes any tempaltes that don't follow the schema
+        - If an image is missing it will look on Docker Hub for an image. However, if no image is found it will put in a place holder.
+        - If a description or category is not found it will search Docker Hub and place a placeholder if none are found.
+	- It makes a new folder with the name of your template file and makes individual json files for each template that is currently not 
+    working.
+- Added a script to combine and remove any duplicates. 
+    - Creates a log of all the templates from sources in processed_templates.json
+    - Creates a log of updates made to template.json (template_update.og)
+    - Creates a log that shows what templates have been modified or removed (combine_and_remove.log)
+- Added a sort script so you can sort your templates (templates.json) alphabetically, if you so choose. 
+- Changed list script to readme_list so that it makes it more obvious what the script is for. It's for making a list of templates in the readme.
+- Added other scripts in lib/misc folder to help fix and organize templates. They were the precursor the the updated scripts. Feel free to get inspiration or change them to your liking. I plan to use this misc folder for scripts that only have very limited usage. 
 
 
 
@@ -766,10 +776,7 @@ And to pubish, run `npm run build` then either use `npm start` or host the conte
 
 Note that it's not required to make any changes to the website when adding a new template or templates source, as data is fetched directly from [`templates.json`](https://github.com/Lissy93/portainer-templates/blob/main/templates.json) in the repo's main branch - so should show up automatically once your changes are merged.
 
----
-
-
-```
+Here's your markdown updated with the auto-inserted content for apps and sources. This is assuming the content for apps and sources has been generated correctly as described:
 
 ---
 
@@ -944,7 +951,9 @@ Note that it's not required to make any changes to the website when adding a new
             <img src="https://avatars.githubusercontent.com/u/12218889?u=d06d0c103dfbdb99450623064f7da3c5a3675fb6&v=4" width="80;" alt="helixzz"/>
             <br />
             <sub><b>HeliXZz</b></sub>
-        </a>
+        </a
+
+>
     </td>
     <td align="center">
         <a href="https://github.com/patvdv">
@@ -1088,7 +1097,9 @@ Additional Modifications Copyright (c) [2024] [Phil Markarian] Permission is her
              .'  '.
             :      :
             | _  _ |
-         .-.|(o)(o)|.-.       _
+         .-.
+
+|(o)(o)|.-.       _
         (   |  __  |   )     //
          '-/ \____/ \-'     //
           //  `----'\\     //
@@ -1107,5 +1118,3 @@ Additional Modifications Copyright (c) [2024] [Phil Markarian] Permission is her
           __ || || __ ||
          /___|| ||___|| 
 -->
-
-
