@@ -780,6 +780,8 @@ Here's your markdown updated with the auto-inserted content for apps and sources
 
 ---
 
+---
+
 ## Credits
 
 ### Contributors
@@ -951,9 +953,7 @@ Here's your markdown updated with the auto-inserted content for apps and sources
             <img src="https://avatars.githubusercontent.com/u/12218889?u=d06d0c103dfbdb99450623064f7da3c5a3675fb6&v=4" width="80;" alt="helixzz"/>
             <br />
             <sub><b>HeliXZz</b></sub>
-        </a
-
->
+        </a>
     </td>
     <td align="center">
         <a href="https://github.com/patvdv">
@@ -992,13 +992,6 @@ Here's your markdown updated with the auto-inserted content for apps and sources
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/lamtrinhdev">
-            <img src="https://avatars.githubusercontent.com/u/49742151?u=c5eaca5aa6841a80605cf4f7d0e861a9e6339ef3&v=4" width="80;" alt="lamtrinhdev"/>
-            <br />
-            <sub><b>LamTrinh.Dev</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/Bastii717">
             <img src="https://avatars.githubusercontent.com/u/53431819?u=604977bed6ad6875ada890d0d3765a4cacc2fa14&v=4" width="80;" alt="Bastii717"/>
             <br />
@@ -1025,15 +1018,15 @@ Here's your markdown updated with the auto-inserted content for apps and sources
             <br />
             <sub><b>Frankdez93</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/terminaltrove">
             <img src="https://avatars.githubusercontent.com/u/121595180?v=4" width="80;" alt="terminaltrove"/>
             <br />
             <sub><b>Terminal Trove</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/NixyJuppie">
             <img src="https://avatars.githubusercontent.com/u/138570196?u=b102c222487905728b858704962d32759df29ebe&v=4" width="80;" alt="NixyJuppie"/>
@@ -1051,6 +1044,7 @@ Here's your markdown updated with the auto-inserted content for apps and sources
 </table>
 <!-- readme: sponsors -end -->
 
+
 ---
 
 ## License
@@ -1065,56 +1059,61 @@ Here's your markdown updated with the auto-inserted content for apps and sources
 
 ```
 The MIT License (MIT)
-Copyright (c) Alicia Sykes <alicia@omg.com> 
 
-Permission is hereby granted, free of charge, to any person obtaining a copy 
-of this software and associated documentation files (the "Software"), to deal 
-in the Software without restriction, including without limitation the rights 
-to use, copy, modify, merge, publish, distribute, sub-license, and/or sell 
-copies of the Software, and to permit persons to whom the Software is furnished 
-to do so, subject to the following conditions:
+Copyright (c) Alicia Sykes <alicia@omg.com>
 
-The above copyright notice and this permission notice shall be included install 
-copies or substantial portions of the Software.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sub-license, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
-INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANT ABILITY, FITNESS FOR A
-PARTICULAR PURPOSE AND NON INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
-HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+The above copyright notice and this permission notice shall be included
+install copies or substantial portions of the Software.
 
-Additional Modifications Copyright (c) [2024] [Phil Markarian] Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANT ABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NON INFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Additional Modifications Copyright (c) [2024] [Phil Markarian]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
 
 </details>
 
 <!-- License + Copyright --> <p align="center"> <i>© <a href="https://aliciasykes.com">Alicia Sykes</a> 2023</i><br> <i>Licensed under <a href="https://gist.github.com/Lissy93/143d2ee01ccc5c052a17">MIT</a></i><br> <a href="https://github.com/lissy93"><img src="https://i.ibb.co/4KtpYxb/octocat-clean-mini.png" /></a><br> <sup>Thanks for visiting :)</sup> </p> <p align="center"> <i>Modifications by <a href="https://github.com/phil-markarian">Phil Markarian</a> © 2024</i><br> <i>Licensed under <a href="https://opensource.org/licenses/MIT">MIT</a></i><br> </p>
 
-<!-- Curious George -->
+<!-- The four monkeys -->
 <!--
-               __
-             .'  '.
-            :      :
-            | _  _ |
-         .-.
+      .-"-.            .-"-.            .-"-.           .-"-.
+     _/_-.-_\_        _/.-.-.\_        _/.-.-.\_       _/.-.-.\_
+    / __} {__ \      /|( o o )|\      ( ( o o ) )     ( ( o o ) )
+   / //  "  \\ \    | //  "  \\ |      |/  "  \|       |/  "  \|
+  / / \'---'/ \ \  / / \'---'/ \ \      \'/^\'/         \ .-. /
+  \ \_/`"""`\_/ /  \ \_/`"""`\_/ /      /`\ /`\         /`"""`\
+   \           /    \           /      /  /|\  \       /       \
 
-|(o)(o)|.-.       _
-        (   |  __  |   )     //
-         '-/ \____/ \-'     //
-          //  `----'\\     //
-         |||   .'.   |||   //
-         |||  :   :  |||  //
-         |||  :   :  ||| ((
-         |||  :   :  |||  \\
-         |||  :___:  |||   ))
-          \\       //     //
-           \'-'-'-'/     //
-            '-- --'     //
-             || ||     ||
-             || ||     ||
-             || ||     ||    -HERSHEY
-             || ||     ||
-          __ || || __ ||
-         /___|| ||___|| 
+-={ see no evil }={ hear no evil }={ speak no evil }={ have no fun }=-
 -->
