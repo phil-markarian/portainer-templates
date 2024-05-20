@@ -1244,3 +1244,1090 @@
 2024-05-20 14:35:58,255 - INFO - Removed duplicate template: YouTubeDL-Material
 2024-05-20 14:35:58,255 - INFO - Removed duplicate template: ZNC
 2024-05-20 14:35:58,271 - INFO - Combined templates written to /root/portainer-templates/lib/../templates.json
+2024-05-20 19:17:58,289 - INFO - Successfully loaded templates from mediadepot_templates.json
+2024-05-20 19:17:58,290 - INFO - Successfully loaded templates from olivercullimore_templates.json
+2024-05-20 19:17:58,290 - INFO - Successfully loaded templates from shmolf_templates.json
+2024-05-20 19:17:58,291 - INFO - Successfully loaded templates from qballjos_templates.json
+2024-05-20 19:17:58,293 - INFO - Successfully loaded templates from technorabilia_templates.json
+2024-05-20 19:17:58,294 - INFO - Successfully loaded templates from novaspirit_templates.json
+2024-05-20 19:17:58,294 - INFO - Successfully loaded templates from dnburgess_templates.json
+2024-05-20 19:17:58,294 - INFO - Successfully loaded templates from portainer_templates.json
+2024-05-20 19:17:58,296 - INFO - Successfully loaded templates from andyyanguk_templates.json
+2024-05-20 19:17:58,296 - INFO - Successfully loaded templates from selfhostedpro_templates.json
+2024-05-20 19:17:58,297 - INFO - Successfully loaded templates from mycroftwilde_templates.json
+2024-05-20 19:17:58,298 - INFO - Successfully loaded templates from mikestraney_templates.json
+2024-05-20 19:17:58,299 - INFO - Successfully loaded templates from xneo1_templates.json
+2024-05-20 19:17:58,299 - INFO - Added or modified template: Airsonic
+2024-05-20 19:17:58,299 - INFO - Added or modified template: Authelia
+2024-05-20 19:17:58,299 - INFO - Added or modified template: Bazarr
+2024-05-20 19:17:58,299 - INFO - Added or modified template: Beets
+2024-05-20 19:17:58,300 - INFO - Added or modified template: Booksonic
+2024-05-20 19:17:58,300 - INFO - Added or modified template: EmbyStat
+2024-05-20 19:17:58,300 - INFO - Added or modified template: Headphones
+2024-05-20 19:17:58,300 - INFO - Removed duplicate template: Heimdall
+2024-05-20 19:17:58,300 - INFO - Added or modified template: Homer
+2024-05-20 19:17:58,300 - INFO - Added or modified template: Huginn
+2024-05-20 19:17:58,300 - INFO - Added or modified template: Invoice Ninja
+2024-05-20 19:17:58,300 - INFO - Removed duplicate template: Jackett
+2024-05-20 19:17:58,300 - INFO - Added or modified template: Jellyfin
+2024-05-20 19:17:58,300 - INFO - Added or modified template: Kodi Headless
+2024-05-20 19:17:58,300 - INFO - Added or modified template: LazyLibrarian
+2024-05-20 19:17:58,300 - INFO - Added or modified template: Let's Encrypt
+2024-05-20 19:17:58,300 - INFO - Removed duplicate template: LibreSpeed
+2024-05-20 19:17:58,300 - INFO - Added or modified template: Lychee
+2024-05-20 19:17:58,300 - INFO - Added or modified template: MariaDB
+2024-05-20 19:17:58,300 - INFO - Added or modified template: phpmyadmin
+2024-05-20 19:17:58,300 - INFO - Added or modified template: McMyAdmin 2
+2024-05-20 19:17:58,300 - INFO - Added or modified template: Medusa
+2024-05-20 19:17:58,300 - INFO - Added or modified template: Minetest
+2024-05-20 19:17:58,300 - INFO - Added or modified template: Minisatip
+2024-05-20 19:17:58,300 - INFO - Added or modified template: Mstream
+2024-05-20 19:17:58,300 - INFO - Added or modified template: Murmur
+2024-05-20 19:17:58,300 - INFO - Added or modified template: MusicBrainz
+2024-05-20 19:17:58,300 - INFO - Added or modified template: Muximux
+2024-05-20 19:17:58,300 - INFO - Added or modified template: Mylar
+2024-05-20 19:17:58,300 - INFO - Added or modified template: Nextcloud
+2024-05-20 19:17:58,300 - INFO - Added or modified template: Nginx
+2024-05-20 19:17:58,300 - INFO - Added or modified template: Nginx Official
+2024-05-20 19:17:58,300 - INFO - Added or modified template: Nginx Proxy Manager
+2024-05-20 19:17:58,300 - INFO - Added or modified template: NZBGet
+2024-05-20 19:17:58,300 - INFO - Added or modified template: NZBHydra 2
+2024-05-20 19:17:58,300 - INFO - Removed duplicate template: Ombi
+2024-05-20 19:17:58,300 - INFO - Added or modified template: OpenVPN Access Server
+2024-05-20 19:17:58,301 - INFO - Added or modified template: WireGuard
+2024-05-20 19:17:58,301 - INFO - Added or modified template: Organizr v2
+2024-05-20 19:17:58,301 - INFO - Added or modified template: OScam
+2024-05-20 19:17:58,301 - INFO - Added or modified template: PhotoShow
+2024-05-20 19:17:58,301 - INFO - Added or modified template: Snibox
+2024-05-20 19:17:58,301 - INFO - Added or modified template: Bookstack
+2024-05-20 19:17:58,301 - INFO - Added or modified template: Chevereto
+2024-05-20 19:17:58,301 - INFO - Added or modified template: Chowdown
+2024-05-20 19:17:58,301 - INFO - Removed duplicate template: Calibre Web
+2024-05-20 19:17:58,301 - INFO - Removed duplicate template: Cardigann
+2024-05-20 19:17:58,301 - INFO - Added or modified template: Code Server
+2024-05-20 19:17:58,301 - INFO - Added or modified template: Codiad
+2024-05-20 19:17:58,301 - INFO - Added or modified template: COPS
+2024-05-20 19:17:58,301 - INFO - Removed duplicate template: CouchPotato
+2024-05-20 19:17:58,301 - INFO - Added or modified template: Daapd
+2024-05-20 19:17:58,301 - INFO - Added or modified template: DashMachine
+2024-05-20 19:17:58,301 - INFO - Added or modified template: Davos
+2024-05-20 19:17:58,301 - INFO - Added or modified template: DeeMix
+2024-05-20 19:17:58,301 - INFO - Added or modified template: Deluge
+2024-05-20 19:17:58,301 - INFO - Added or modified template: Domoticz
+2024-05-20 19:17:58,301 - INFO - Removed duplicate template: Duck DNS
+2024-05-20 19:17:58,301 - INFO - Added or modified template: Cloudflare DDNS
+2024-05-20 19:17:58,301 - INFO - Removed duplicate template: Duplicati
+2024-05-20 19:17:58,301 - INFO - Added or modified template: Emby
+2024-05-20 19:17:58,301 - INFO - Removed duplicate template: FileBrowser
+2024-05-20 19:17:58,301 - INFO - Added or modified template: FreshRSS
+2024-05-20 19:17:58,301 - INFO - Added or modified template: Gazee
+2024-05-20 19:17:58,301 - INFO - Added or modified template: Grocy
+2024-05-20 19:17:58,301 - INFO - Added or modified template: Firefox
+2024-05-20 19:17:58,301 - INFO - Added or modified template: FirefoxV2
+2024-05-20 19:17:58,301 - INFO - Added or modified template: Google Chrome
+2024-05-20 19:17:58,301 - INFO - Added or modified template: Guacamole
+2024-05-20 19:17:58,301 - INFO - Added or modified template: HTPC Manager
+2024-05-20 19:17:58,301 - INFO - Added or modified template: lidarr
+2024-05-20 19:17:58,301 - INFO - Added or modified template: Pi-Hole
+2024-05-20 19:17:58,302 - INFO - Added or modified template: Piwigo
+2024-05-20 19:17:58,302 - INFO - Added or modified template: Plex
+2024-05-20 19:17:58,302 - INFO - Removed duplicate template: Plex Requests
+2024-05-20 19:17:58,302 - INFO - Added or modified template: ProjectSend
+2024-05-20 19:17:58,302 - INFO - Added or modified template: ProtonMail Bridge
+2024-05-20 19:17:58,302 - INFO - Added or modified template: Pydio
+2024-05-20 19:17:58,302 - INFO - Added or modified template: qBittorrent
+2024-05-20 19:17:58,302 - INFO - Added or modified template: Quassel IRC
+2024-05-20 19:17:58,302 - INFO - Removed duplicate template: Radarr
+2024-05-20 19:17:58,302 - INFO - Added or modified template: Reactive-Resume
+2024-05-20 19:17:58,302 - INFO - Removed duplicate template: Resilio Sync
+2024-05-20 19:17:58,302 - INFO - Removed duplicate template: ruTorrent
+2024-05-20 19:17:58,302 - INFO - Added or modified template: SABnzbd
+2024-05-20 19:17:58,302 - INFO - Added or modified template: Shiori
+2024-05-20 19:17:58,302 - INFO - Added or modified template: SickChill
+2024-05-20 19:17:58,302 - INFO - Added or modified template: SickGear
+2024-05-20 19:17:58,302 - INFO - Added or modified template: SmokePing
+2024-05-20 19:17:58,302 - INFO - Removed duplicate template: Sonarr
+2024-05-20 19:17:58,302 - INFO - Added or modified template: SyncThing
+2024-05-20 19:17:58,302 - INFO - Removed duplicate template: Tautulli
+2024-05-20 19:17:58,302 - INFO - Added or modified template: TheLounge
+2024-05-20 19:17:58,302 - INFO - Added or modified template: TiddlyWiki
+2024-05-20 19:17:58,302 - INFO - Added or modified template: Transmission
+2024-05-20 19:17:58,302 - INFO - Added or modified template: Transmission-OpenVPN
+2024-05-20 19:17:58,302 - INFO - Added or modified template: Tiny Tiny RSS
+2024-05-20 19:17:58,302 - INFO - Added or modified template: Tvheadend
+2024-05-20 19:17:58,302 - INFO - Added or modified template: Tvhproxy
+2024-05-20 19:17:58,302 - INFO - Added or modified template: EETV Plex Proxy
+2024-05-20 19:17:58,302 - INFO - Added or modified template: Ubooquity
+2024-05-20 19:17:58,302 - INFO - Added or modified template: UniFi Controller
+2024-05-20 19:17:58,302 - INFO - Removed duplicate template: Watchtower
+2024-05-20 19:17:58,302 - INFO - Added or modified template: WebGrab+Plus
+2024-05-20 19:17:58,302 - INFO - Added or modified template: Whoogle
+2024-05-20 19:17:58,302 - INFO - Added or modified template: Wikijs
+2024-05-20 19:17:58,302 - INFO - Added or modified template: YouTubeDL-Material
+2024-05-20 19:17:58,302 - INFO - Added or modified template: MeTube (YouTubeDL)
+2024-05-20 19:17:58,303 - INFO - Added or modified template: UniFi Video
+2024-05-20 19:17:58,303 - INFO - Added or modified template: ZNC
+2024-05-20 19:17:58,303 - INFO - Added or modified template: GOPHISH
+2024-05-20 19:17:58,303 - INFO - Added or modified template: Seafile
+2024-05-20 19:17:58,303 - INFO - Removed duplicate template: Dozzle
+2024-05-20 19:17:58,303 - INFO - Added or modified template: Wallbag
+2024-05-20 19:17:58,303 - INFO - Added or modified template: GitLab Runner
+2024-05-20 19:17:58,303 - INFO - Added or modified template: Jetbrains TeamCity Server
+2024-05-20 19:17:58,303 - INFO - Added or modified template: Jetbrains TeamCity Agent
+2024-05-20 19:17:58,303 - INFO - Added or modified template: Jetbrains TeamCity Agent Docker
+2024-05-20 19:17:58,303 - INFO - Added or modified template: Jetbrains TeamCity Stack
+2024-05-20 19:17:58,303 - INFO - Added or modified template: TestProject Agent Browser Stack
+2024-05-20 19:17:58,303 - INFO - Added or modified template: Media Grabber Worker with Redis
+2024-05-20 19:17:58,303 - INFO - Added or modified template: Media Grabber Worker with Proxy
+2024-05-20 19:17:58,303 - INFO - Added or modified template: Docker Registry
+2024-05-20 19:17:58,303 - INFO - Added or modified template: Caddy
+2024-05-20 19:17:58,303 - INFO - Added or modified template: PostgreSQL
+2024-05-20 19:17:58,303 - INFO - Added or modified template: Mongo
+2024-05-20 19:17:58,303 - INFO - Added or modified template: CockroachDB
+2024-05-20 19:17:58,303 - INFO - Added or modified template: CrateDB
+2024-05-20 19:17:58,303 - INFO - Added or modified template: Elasticsearch
+2024-05-20 19:17:58,303 - INFO - Added or modified template: InfluxDB
+2024-05-20 19:17:58,303 - INFO - Added or modified template: Grafana
+2024-05-20 19:17:58,303 - INFO - Added or modified template: Gitlab CE
+2024-05-20 19:17:58,303 - INFO - Added or modified template: Strapi
+2024-05-20 19:17:58,303 - INFO - Added or modified template: Miniflux
+2024-05-20 19:17:58,303 - INFO - Added or modified template: MagicMirror²
+2024-05-20 19:17:58,303 - INFO - Added or modified template: geo Energy Data
+2024-05-20 19:17:58,303 - INFO - Removed duplicate template: Airsonic
+2024-05-20 19:17:58,303 - INFO - Removed duplicate template: Authelia
+2024-05-20 19:17:58,303 - INFO - Removed duplicate template: Bazarr
+2024-05-20 19:17:58,303 - INFO - Removed duplicate template: Beets
+2024-05-20 19:17:58,303 - INFO - Removed duplicate template: Booksonic
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Bookstack
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: COPS
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Calibre Web
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Chevereto
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Chowdown
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Code Server
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Codiad
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: CouchPotato
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Daapd
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: DashMachine
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Davos
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: DeeMix
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Deluge
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Domoticz
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Duck DNS
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Duplicati
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Emby
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: EmbyStat
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: FileBrowser
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: FreshRSS
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Gazee
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Guacamole
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Grocy
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: HTPC Manager
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Headphones
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Heimdall
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Homer
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Huginn
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Invoice Ninja
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Jackett
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Jellyfin
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Kodi Headless
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: LazyLibrarian
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: LibreSpeed
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Lidarr
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Lychee
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: MariaDB
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: McMyAdmin 2
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Medusa
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Minetest
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Minisatip
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Mstream
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Murmur
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: MusicBrainz
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Muximux
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Mylar
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: NZBGet
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: NZBHydra 2
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Nextcloud
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Nginx
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Nginx Proxy Manager
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: OScam
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Ombi
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: OpenVPN Access Server
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: Overseerr
+2024-05-20 19:17:58,304 - INFO - Removed duplicate template: PhotoShow
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Pi-Hole
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Piwigo
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Plex
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Plex Requests
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: ProjectSend
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: ProtonMail Bridge
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Prowlarr
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Pydio
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: qBittorrent
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Quassel IRC
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Radarr
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Reactive-Resume
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Resilio Sync
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: ruTorrent
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: SABnzbd
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Shiori
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: SickChill
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: SickGear
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: SmokePing
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Snibox
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Sonarr
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: SyncThing
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Tautulli
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: TheLounge
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: TiddlyWiki
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Tiny Tiny RSS
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Transmission
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Transmission-OpenVPN
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Tvheadend
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Ubooquity
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: UniFi Controller
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Watchtower
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: WebGrab+Plus
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Whoogle
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Wikijs
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Yacht
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: YouTubeDL-Material
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: ZNC
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Bazarr
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Beets
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Bookstack
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Calibre-web
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Code-server
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Cops
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Daapd
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Davos
+2024-05-20 19:17:58,305 - INFO - Removed duplicate template: Deluge
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Duckdns
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Duplicati
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Emby
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Embystat
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Firefox
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Freshrss
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Grocy
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Healthchecks
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Heimdall
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Htpcmanager
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Jackett
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Jellyfin
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Lazylibrarian
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Librespeed
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Lidarr
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Lychee
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Mariadb
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Medusa
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Minetest
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Minisatip
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Mstream
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Netbootxyz
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Nextcloud
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Nginx
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Nzbhydra2
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Ombi
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Oscam
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Overseerr
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Phpmyadmin
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Piwigo
+2024-05-20 19:17:58,306 - INFO - Removed duplicate template: Plex
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Projectsend
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Prowlarr
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Qbittorrent
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Qdirstat
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Radarr
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Resilio-sync
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Sabnzbd
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Sickchill
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Sickgear
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Smokeping
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Sonarr
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Syncthing
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Tautulli
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Thelounge
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Transmission
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Tvheadend
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Ubooquity
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Webgrabplus
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Wikijs
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Wireguard
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Znc
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: ArchiSteamFarm
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Authelia
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Bookstack
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Caddy
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Chevereto
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Cloudflare DDNS
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: DashMachine
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: DeeMix
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Dozzle
+2024-05-20 19:17:58,307 - INFO - Removed duplicate template: Grafana
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: Guacamole
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: Home Assistant
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: Homepage
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: Homer
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: Huginn
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: Kavita
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: Kodi Headless
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: Murmur
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: n8n
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: Organizr v2
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: Pi-Hole
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: Piwigo
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: PostgreSQL
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: ruTorrent
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: Shiori
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: Speedtest Tracker
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: TiddlyWiki
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: UniFi Video
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: Uptime Kuma
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: Vaultwarden
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: Watchtower
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: Whoogle
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: Yacht
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: your-spotify
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: YouTubeDL-Material
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: htpcmanager
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: jackett
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: booksonic
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: smokeping
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: duckdns
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: webgrabplus
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: domoticz
+2024-05-20 19:17:58,308 - INFO - Removed duplicate template: transmission
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: sickchill
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: musicbrainz
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: quassel-core
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: photoshow
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: daapd
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: gazee
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: codiad
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: oscam
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: kodi-headless
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: pydio
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: sabnzbd
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: medusa
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: heimdall
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: syncthing
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: muximux
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: beets
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: mariadb
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: znc
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: cops
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: thelounge
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: nzbget
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: ombi
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: lychee
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: deluge
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: nginx
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: lidarr
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: unifi-controller
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: calibre-web
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: plex
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: headphones
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: qbittorrent
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: couchpotato
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: davos
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: freshrss
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: mylar
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: projectsend
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: minetest
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: tvheadend
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: duplicati
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: resilio-sync
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: radarr
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: piwigo
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: ubooquity
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: lazylibrarian
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: airsonic
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: letsencrypt
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: sonarr
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: tautulli
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: rutorrent
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: nextcloud
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: minisatip
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: Organizr
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: Chevereto
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: Nginx
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: Caddy
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: MariaDB
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: PostgreSQL
+2024-05-20 19:17:58,309 - INFO - Removed duplicate template: Mongo
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: CrateDB
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Elasticsearch
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: GitLab CE
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Minio
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: SQL Server
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Ghost
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: File browser
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: CockroachDB
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: WordPress
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: WordPress
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Sematext Docker Agent
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Datadog agent
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Dokku
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: LiveSwitch
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: OPC Router
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Pro Mosquitto with Management Center
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Airsonic
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Authelia
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Bazarr
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Beets
+2024-05-20 19:17:58,310 - INFO - Added or modified template: Bitwarden Stack
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Bitwarden RS
+2024-05-20 19:17:58,310 - INFO - Added or modified template: Bitwarden RS Backup
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Booksonic
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Bookstack
+2024-05-20 19:17:58,310 - INFO - Added or modified template: CodiMD
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: COPS
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Caddy
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Calibre Web
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Cardigann
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Chevereto
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Chowdown
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Code Server
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Codiad
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: CommandBox
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: ContentBox
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: CouchPotato
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Daapd
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: DashMachine
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Davos
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: DeeMix
+2024-05-20 19:17:58,310 - INFO - Removed duplicate template: Deluge
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Domoticz
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Dozzle
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Drupal
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Duck DNS
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Duplicati
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Emby
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: EmbyStat
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: FileBrowser
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: FreshRSS
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Gazee
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Ghost
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Gitlab CE
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Grocy
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Guacamole
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: HTPC Manager
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Headphones
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Heimdall
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Homer
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Huginn
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Invoice Ninja
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Jackett
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Jellyfin
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Jenkins
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Joomla
+2024-05-20 19:17:58,311 - INFO - Added or modified template: Jupyter Notebook
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Kodi Headless
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: LazyLibrarian
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Let's Encrypt
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: LibreSpeed
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Lychee
+2024-05-20 19:17:58,311 - INFO - Added or modified template: MariaDB Backups
+2024-05-20 19:17:58,311 - INFO - Added or modified template: Matomo
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Mautic
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: McMyAdmin 2
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Medusa
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Minetest
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Minio
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Minisatip
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Mstream
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Murmur
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: MusicBrainz
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Muximux
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Mylar
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: NZBGet
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: NZBHydra 2
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Nextcloud
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Nginx
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Nginx Proxy Manager
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: OScam
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Ombi
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: OpenVPN Access Server
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Organizr v2
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: PhotoShow
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: phpmyadmin
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Pi-Hole
+2024-05-20 19:17:58,311 - INFO - Removed duplicate template: Piwigo
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Plex
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Plex Requests
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Plone
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Pritunl
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: ProjectSend
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: ProtonMail Bridge
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Pydio
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Quassel IRC
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Radarr
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Reactive-Resume
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Redmine
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Resilio Sync
+2024-05-20 19:17:58,312 - INFO - Added or modified template: Roundcube Mail
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: SABnzbd
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Scality S3
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Seafile
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Shiori
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: SickChill
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: SickGear
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: SmokePing
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Snibox
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Sonarr
+2024-05-20 19:17:58,312 - INFO - Added or modified template: Switch LAN play server
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: SyncThing
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Tautulli
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: TheLounge
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: TiddlyWiki
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Tiny Tiny RSS
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Transmission
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Transmission-OpenVPN
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Tvheadend
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Ubooquity
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Urbackup
+2024-05-20 19:17:58,312 - INFO - Added or modified template: Wallabag + SQlite
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Watchtower
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: WebGrab+Plus
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Whoogle
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Wikijs
+2024-05-20 19:17:58,312 - INFO - Added or modified template: Wordpress + MariaDB
+2024-05-20 19:17:58,312 - INFO - Added or modified template: Wordpress + MySQL
+2024-05-20 19:17:58,312 - INFO - Added or modified template: Wowza
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Yacht
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: YouTubeDL-Material
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: ZNC
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: lidarr
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: qBittorrent
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: ruTorrent
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Airsonic
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Authelia
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Bazarr
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Beets
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Bitwarden RS
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Booksonic
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: EmbyStat
+2024-05-20 19:17:58,312 - INFO - Removed duplicate template: Headphones
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Heimdall
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Homer
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Huginn
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Invoice Ninja
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Jackett
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Jellyfin
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Kodi Headless
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: LazyLibrarian
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Let's Encrypt
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: LibreSpeed
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Lychee
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: MariaDB
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: McMyAdmin 2
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Medusa
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Minetest
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Minisatip
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Mstream
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Murmur
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: MusicBrainz
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Muximux
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Mylar
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Nextcloud
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Nginx
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Nginx Proxy Manager
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: NZBGet
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: NZBHydra 2
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Ombi
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: OpenVPN Access Server
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: OScam
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: PhotoShow
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Snibox
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Bookstack
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Chevereto
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Chowdown
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Calibre Web
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Cardigann
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Code Server
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Codiad
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: COPS
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: CouchPotato
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Daapd
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: DashMachine
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Davos
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: DeeMix
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Deluge
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Domoticz
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Duck DNS
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Duplicati
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Emby
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: FileBrowser
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: FreshRSS
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Gazee
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Grocy
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Guacamole
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: HTPC Manager
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: lidarr
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Pi-Hole
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Piwigo
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Plex
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: Plex Requests
+2024-05-20 19:17:58,313 - INFO - Removed duplicate template: ProjectSend
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: ProtonMail Bridge
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Pritunl
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Pydio
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: qBittorrent
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Quassel IRC
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Radarr
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Reactive-Resume
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Resilio Sync
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: ruTorrent
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: SABnzbd
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Shiori
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: SickChill
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: SickGear
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: SmokePing
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Sonarr
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: SyncThing
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Tautulli
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: TheLounge
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: TiddlyWiki
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Transmission
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Transmission-OpenVPN
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Tiny Tiny RSS
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Tvheadend
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Ubooquity
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: UniFi Controller
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Watchtower
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: WebGrab+Plus
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Whoogle
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Wikijs
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: YouTubeDL-Material
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: UniFi Video
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Yacht
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: ZNC
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Apprise-api
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Pwndrop
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Firefox
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Ghostfolio
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Prowlarr
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Readarr
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Calibre
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Habridge
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Komga
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Kavita
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Snipe-it
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Uptime Kuma
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Grafana
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Nodered
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Dashy
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Foldingathome
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Authelia
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Bazarr
+2024-05-20 19:17:58,314 - INFO - Removed duplicate template: Beets
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Vaultwarden
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Booksonic
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Bookstack
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: COPS
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Calibre Web
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Chevereto
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Chowdown
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Code Server
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Codiad
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: CouchPotato
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Daapd
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: DashMachine
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Davos
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Deluge
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Domoticz
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Duck DNS
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Duplicati
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Emby
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: EmbyStat
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: FileBrowser
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: FreshRSS
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Gazee
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Guacamole
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Grocy
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Headphones
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Heimdall
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Homer
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Huginn
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Jackett
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Jellyfin
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Kodi Headless
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: LazyLibrarian
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Let's Encrypt / SWAG
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: LibreSpeed
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Lidarr
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Lychee
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: MariaDB
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Mstream
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Murmur
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: MusicBrainz
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Muximux
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Mylar
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: NZBGet
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: NZBHydra 2
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Nextcloud
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Nginx
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Nginx Proxy Manager
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Ombi
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: OpenVPN Access Server
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Organizr
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Overseerr
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Owncloud
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Petio
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: PhotoShow
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Pi-Hole
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Piwigo
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Plex
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Plex Requests
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: ProtonMail Bridge
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: qBittorrent
+2024-05-20 19:17:58,315 - INFO - Removed duplicate template: Radarr
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Resilio Sync
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: ruTorrent
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: SABnzbd
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Shiori
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: SmokePing
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Snibox
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Sonarr
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: SyncThing
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Tautulli
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: TiddlyWiki
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Tiny Tiny RSS
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Transmission
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Transmission-OpenVPN
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Ubooquity
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: UniFi Controller
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Watchtower
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: WebGrab+Plus
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Whoogle
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Wikijs
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Yacht
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Audacity
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Booksonic-air
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Dokuwiki
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Emulatorjs
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Ffmpeg
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Filezilla
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Healthchecks
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Homeassistant
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Ldap-auth
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Libreoffice
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Limnoria
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Netbox
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Openssh-server
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Pidgin
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Rdesktop
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Rsnapshot
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Snapdrop
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Webtop
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Wireguard
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Wireshark
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Airsonic-advanced
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Phpmyadmin
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Syslog-ng
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Wowza
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: MySQL
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Gitlab CE
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: YouTubeDL-Material
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Adguard
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Airsonic
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Authelia
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Authelia
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Bazarr
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Beets
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Bitwarden RS
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Booksonic
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Bookstack
+2024-05-20 19:17:58,316 - INFO - Removed duplicate template: Caddy
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Calibre Web
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Chevereto
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Chowdown
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: CockroachDB
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: CockroachDB
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: CockroachDB
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Code Server
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Codiad
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: CommandBox
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: ContentBox
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: COPS
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: CouchPotato
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: CrateDB
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Daapd
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: DashMachine
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Datadog agent
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Datadog agent
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Davos
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: DeeMix
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Deluge
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Domoticz
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Drupal
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Duck DNS
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Duplicati
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Elasticsearch
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Emby
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: EmbyStat
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: File browser
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: FileBrowser
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: FreshRSS
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Gazee
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Ghost
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Gitlab CE
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Grocy
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Guacamole
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Headphones
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Heimdall
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Homer
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: HTPC Manager
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Httpd
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Huginn
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Invoice Ninja
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: IronFunctions
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Jackett
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Jellyfin
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Jenkins
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Joomla
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Kodi Headless
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: LazyLibrarian
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Let's Encrypt / SWAG
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: LibreSpeed
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: lidarr
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Lychee
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Magento 2
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: MariaDB
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: MariaDB
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Mautic
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: McMyAdmin 2
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Medusa
+2024-05-20 19:17:58,317 - INFO - Removed duplicate template: Microsoft OMS Agent
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Minetest
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Minio
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Minisatip
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Mongo
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Mstream
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Murmur
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: MusicBrainz
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Muximux
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Mylar
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: MySQL
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Nextcloud
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Nginx
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Nginx
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Nginx Proxy Manager
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: NZBGet
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: NZBHydra 2
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Odoo
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Ombi
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: OpenFaaS
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: OpenVPN Access Server
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Organizr
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: OScam
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: PhotoShow
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Pi-Hole
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Piwigo
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Plesk
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Plex
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Plex Requests
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Plone
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Portainer Agent
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: PostgreSQL
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: ProjectSend
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: ProtonMail Bridge
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Pydio
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: qBittorrent
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Quassel IRC
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: RabbitMQ
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Radarr
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Reactive-Resume
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Redis
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Redmine
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Registry
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Resilio Sync
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: ruTorrent
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: SABnzbd
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Scality S3
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Sematext Docker Agent
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Sematext Docker Agent
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Shiori
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: SickChill
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: SickGear
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: SmokePing
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Snibox
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Solr
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Sonarr
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: SQL Server
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: SQL Server
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: SQL Server Express
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: SyncThing
+2024-05-20 19:17:58,318 - INFO - Removed duplicate template: Tautulli
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: TheLounge
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: TiddlyWiki
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Tiny Tiny RSS
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Transmission
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Transmission-OpenVPN
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Tvheadend
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Ubooquity
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: UniFi Controller
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Urbackup
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Watchtower
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: WebGrab+Plus
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Whoogle
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Wikijs
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Wordpress
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Wordpress
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Wordpress
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Wowza
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Yacht
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: YouTubeDL-Material
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: ZNC
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Adguard Home
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Authelia
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Bazarr
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Beets
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Vaultwarden
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Booksonic
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Bookstack
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Trilium
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: COPS
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Kavita
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Calibre Web
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Chevereto
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Chowdown
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Code Server
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Codiad
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: CouchPotato
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Daapd
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: DashMachine
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Davos
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: DeeMix
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Deluge
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Domoticz
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Duck DNS
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Duplicati
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Emby
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: EmbyStat
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: FileBrowser
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: FreshRSS
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Miniflux
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Gazee
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Guacamole
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Grocy
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: HTPC Manager
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Headphones
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Heimdall
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Homer
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Dashy
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Vikunja
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Audiobookshelf
+2024-05-20 19:17:58,319 - INFO - Removed duplicate template: Fenrus
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Authentik
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Navidrome
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Flame-Dashboard
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Huginn
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Invoice Ninja
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Jackett
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Jellyfin
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Kodi Headless
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: LazyLibrarian
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Let's Encrypt / SWAG
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: LibreSpeed
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Lidarr
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Lychee
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: MariaDB
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: McMyAdmin 2
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Medusa
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Minetest
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Pi.alert
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Minisatip
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Mstream
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Murmur
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: MusicBrainz
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Muximux
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Mylar
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: NZBGet
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: NZBHydra 2
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Nextcloud
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Nginx
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Nginx Proxy Manager
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: OScam
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Ombi
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: OpenVPN Access Server
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Organizr
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Overseerr
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Owncloud
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Petio
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: PhotoShow
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Pi-Hole
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Piwigo
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Plex
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Plex Requests
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: ProjectSend
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: ProtonMail Bridge
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Prowlarr
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Pydio
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: qBittorrent
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Quassel IRC
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Radarr
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Reactive-Resume
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Resilio Sync
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: ruTorrent
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: SABnzbd
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: SickChill
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: SickGear
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: SmokePing
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Snibox
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Sonarr
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: Tautulli
+2024-05-20 19:17:58,320 - INFO - Removed duplicate template: TheLounge
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: TiddlyWiki
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Tiny Tiny RSS
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Transmission
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Transmission-OpenVPN
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Tvheadend
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Ubooquity
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: UniFi Controller
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Watchtower
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: WebGrab+Plus
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Whoogle
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Wikijs
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Yacht
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Uptime Kuma
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Dozzle
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Monica
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Netbox
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Freeboard
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Ghostfolio
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Servas
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Wallabag
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Nodered
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Change Detection
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Firefox
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Webtop
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Ferdium
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Snippet Box
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Apprise-API
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Netboot.xyz
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Wordpress
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Grocy
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Shiori
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Airsonic
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Mautic
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Medusa
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Your_spotify
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Influxdb
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Grafana
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Readarr
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Mastodon
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Draw.io
+2024-05-20 19:17:58,321 - INFO - Removed duplicate template: Tailscale
+2024-05-20 19:17:58,322 - INFO - Removed duplicate template: Homarr
+2024-05-20 19:17:58,322 - INFO - Removed duplicate template: Meshcentral
+2024-05-20 19:17:58,322 - INFO - Removed duplicate template: Rust Desk
+2024-05-20 19:17:58,322 - INFO - Removed duplicate template: Syncthing
+2024-05-20 19:17:58,322 - INFO - Removed duplicate template: Homepage
+2024-05-20 19:17:58,322 - INFO - Removed duplicate template: Baserow
+2024-05-20 19:17:58,322 - INFO - Removed duplicate template: Homebridge
+2024-05-20 19:17:58,322 - INFO - Removed duplicate template: Frigate NVR
+2024-05-20 19:17:58,322 - INFO - Removed duplicate template: Matomo
+2024-05-20 19:17:58,322 - INFO - Removed duplicate template: Ghost
+2024-05-20 19:17:58,322 - INFO - Removed duplicate template: YouTubeDL-Material
+2024-05-20 19:17:58,322 - INFO - Removed duplicate template: ZNC
+2024-05-20 19:17:58,339 - INFO - Combined templates written to /root/portainer-templates/lib/../templates.json
