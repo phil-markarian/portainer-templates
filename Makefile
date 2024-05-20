@@ -7,17 +7,18 @@ all: install_requirements download combine list
 install_requirements:
 	$(PYTHON) -m pip install -r lib/requirements.txt
 
-download:
-	$(PYTHON) lib/download.py
 
-combine:
-	$(PYTHON) lib/combine.py
+combine_and_remove:
+	$(PYTHON) lib/combine_and_remove.py
 
 validate:
 	$(PYTHON) lib/validate.py
 
-list:
+readme_list:
 	$(PYTHON) lib/list.py
 
-remover:
-	$(PYTHON) lib/remover.py
+init_and_update:
+	$(PYTHON) lib/init_and_update.py
+
+sort:
+	$(PYTHON) lib/sort.py
