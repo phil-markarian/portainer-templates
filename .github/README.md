@@ -59,7 +59,7 @@ This repository is a fork of the [original project](https://github.com/Lissy93/p
 
 In [Portainer](https://www.portainer.io/), [App Templates](https://docs.portainer.io/user/docker/templates) enable you to easily deploy services with a predetermined configuration, while allowing you to customize options through the web UI. While Portainer ships with some default templates (see [portainer/templates](https://github.com/portainer/templates)), it's often helpful to have 1-click access to many more apps + stacks, without having to constantly switch template sources.
 
-This repo combines app templates from several [sources](#sources), to create a ready-to-go [template file](https://github.com/Lissy93/portainer-templates/blob/main/templates.json) containing all the apps you'll ever need. It's also possible to self-host, as well as combine with your own custom templates.
+This repo combines app templates from several [sources](#sources), to create a ready-to-go [template file](https://github.com/phil-markarian/portainer-templates/blob/main/templates.json) containing all the apps you'll ever need. It's also possible to self-host, as well as combine with your own custom templates.
 
 You can browse all supported apps and stacks and see stats, config options and stand-alone installation commands for each, at [portainer-templates.as93.net](https://portainer-templates.as93.net)
 
@@ -101,26 +101,78 @@ docker run -d -p "8080:80" portainer-templates
 If you're using your own template file, but don't want to fork this repository, you can instead simply pass your `templates.json` file to the above Docker container as a volume, with `-v "${PWD}/templates.json:/usr/share/nginx/html/templates.json"`
 
 ---
+This repository provides a comprehensive list of Portainer templates, generated using scripts and GitHub Actions. It includes a variety of sources and allows easy integration of new templates.
 
 ## Editing
 
-The `template.json` file is generated using the scripts in [`lib`](https://github.com/Lissy93/portainer-templates/tree/main/lib), using GitHub Actions.
-Running the `make` command will download all listed sources, parse them, and combine them with anything in the sources dir, outputting the `templates.json` file.<br>
-_So, you only need to edit **either** the [`sources.csv`](https://github.com/Lissy93/portainer-templates/blob/main/sources.csv) file, **or** add your templates directly into the [`sources/`](https://github.com/Lissy93/portainer-templates/tree/main/sources) directory._
+The `template.json` file is generated using the scripts in [`lib`](https://github.com/phil-markarian/portainer-templates/tree/main/lib) and GitHub Actions. Running the `make` command will download all listed sources, parse them, and combine them with anything in the sources directory, outputting the `templates.json` file.
 
-### Adding a new Source
-If you're maintaining your own list of Portainer templates, and would like them to be included, just add the URL to your template.json file to [`sources.csv`](https://github.com/Lissy93/portainer-templates/blob/main/sources.csv), along with a name.
-When the action runs, it will download the content, parse it and add it to the final template.
+**Note:** You only need to edit **either** the [`sources.csv`](https://github.com/phil-markarian/portainer-templates/blob/main/sources.csv) file, **or** add your templates directly into the [`sources/`](https://github.com/phil-markarian/portainer-templates/tree/main/sources) directory.
 
-### Adding a Template / Template list
-Alternatively, place your template file within the [`sources`](https://github.com/Lissy93/portainer-templates/tree/main/sources) directory, and it will be automatically combined into the main `template.json`. Be sure that your template corresponds to [Portainer's App Template JSON Format](https://docs.portainer.io/advanced/app-templates/format).
+### Adding a New Source
+
+If you're maintaining your own list of Portainer templates and would like them to be included, just add the URL to your `template.json` file to [`sources.csv`](https://github.com/phil-markarian/portainer-templates/blob/main/sources.csv), along with a name. When the action runs, it will download the content, parse it, and add it to the final template.
+
+### Adding a Template / Template List
+
+Alternatively, place your template file within the [`sources`](https://github.com/phil-markarian/portainer-templates/tree/main/sources) directory, and it will be automatically combined into the main `template.json`. Ensure that your template corresponds to [Portainer's App Template JSON Format](https://docs.portainer.io/advanced/app-templates/format).
 
 ### Validating Templates
-There is a schema defined in [`Schema.json`](https://github.com/Lissy93/portainer-templates/blob/main/Schema.json), which can be used to validate any Portainer template.
-Run `make validate` to ensure your template conforms to Portainer's App Template [specification](https://docs.portainer.io/advanced/app-templates/format).
 
-### Maintaining your own Templates
-If you'd like to use this repo as a base, but maintain your own list of template, just fork the repository, and update `lissy93` with your username in the import URL.
+There is a schema defined in [`Schema.json`](https://github.com/phil-markarian/portainer-templates/blob/main/Schema.json), which can be used to validate any Portainer template. Run `make validate` to ensure your template conforms to Portainer's App Template [specification](https://docs.portainer.io/advanced/app-templates/format).
+
+### Maintaining Your Own Templates
+
+If you'd like to use this repo as a base but maintain your own list of templates, just fork the repository and update `phil-markarian` with your username in the import URL.
+
+## Scripts
+
+### init_and_update.py
+
+- **Purpose:** Downloads template sources, validates them, and updates the local repository.
+- **Usage:** Run the script to fetch templates from URLs listed in `sources.csv`, validate them, and update the repository. Handles rate limits and logs detailed processing information.
+- **Logs:**
+  - `template_processing.log`: Contains detailed logs of template processing, including download attempts, validation results, and any errors encountered.
+
+### combine_and_remove.py
+
+- **Purpose:** Combines templates from various sources and removes duplicates.
+- **Usage:** Run the script to load, filter, and combine templates into `templates.json`. It also logs updates and errors.
+- **Logs:**
+  - `combine_and_remove.log`: Contains logs of the template combination process, including loaded files, any JSON decoding errors, and duplicate removals.
+  - `template_updates.log`: Logs details of templates that were added or modified during the combination process.
+
+### read_me_list.py
+
+- **Purpose:** Generates lists of templates and sources for the README file.
+- **Usage:** Run the script to update the README with the current list of templates and sources.
+- **Logs:** This script does not generate logs.
+
+### sort.py (Optional)
+
+- **Purpose:** Sorts the templates in `templates.json` alphabetically by title and ensures consistent key ordering.
+- **Usage:** Run the script to sort templates and write the sorted data back to `templates.json`.
+- **Logs:** This script prints the result of the sorting process to the console.
+
+### validate.py (Manual Use)
+
+- **Purpose:** Validates the `templates.json` file against the schema defined in `Schema.json` and additional checks.
+- **Usage:** Run the script to validate templates, checking for missing required properties and ensuring they conform to Portainer's format.
+- **Logs:** This script prints validation errors and details to the console.
+
+## How to Use the Repository
+
+1. **Fork the Repository:** Create your own fork to maintain a personalized list of templates.
+2. **Add Sources:** Edit the [`sources.csv`](https://github.com/phil-markarian/portainer-templates/blob/main/sources.csv) file to include URLs to your template lists.
+3. **Add Templates Directly:** Place your template files in the [`sources`](https://github.com/phil-markarian/portainer-templates/tree/main/sources) directory.
+4. **Run Scripts:**
+   - `init_and_update.py` to fetch and update templates from listed sources.
+   - `combine_and_remove.py` to combine and filter templates.
+   - `read_me_list.py` to update the README with the current templates and sources.
+   - `sort.py` (optional) to sort templates in `templates.json`.
+   - `validate.py` to validate templates if you are adding them manually.
+
+By following these steps, you can easily manage and maintain your list of Portainer templates.
 
 ---
 
@@ -709,7 +761,7 @@ If you'd like to use this repo as a base, but maintain your own list of template
 <br>
 
 Full credit to the authors of the following templates.
-The main `templates.json` file is composes of these sources, along with the content of the [`sources`](https://github.com/Lissy93/portainer-templates/tree/main/sources) directory.
+The main `templates.json` file is composes of these sources, along with the content of the [`sources`](https://github.com/phil-markarian/portainer-templates/tree/main/sources) directory.
 
 <!-- auto-insert-sources:start -->
 1. <img src="https://github.com/dnburgess.png?size=40" width="26" height="26" /> [template](https://raw.githubusercontent.com/dnburgess/self-hosted-template/master/template.json) by [@dnburgess](https://github.com/dnburgess)
@@ -736,7 +788,7 @@ The main `templates.json` file is composes of these sources, along with the cont
 
 ## Raising Issues
 
-If you notice something not working as it should in any of the [`lib/` scripts](https://github.com/Lissy93/portainer-templates/tree/main/lib), [`website` code](https://github.com/Lissy93/portainer-templates/tree/website), [`README` documentation](https://github.com/Lissy93/portainer-templates/tree/main/.github/README.md), or [`workflows` automations](https://github.com/Lissy93/portainer-templates/tree/main/.github/workflows) - then raise an issue or PR in this repository.
+If you notice something not working as it should in any of the [`lib/` scripts](https://github.com/phil-markarian/portainer-templates/tree/main/lib), [`website` code](https://github.com/phil-markarian/portainer-templates/tree/website), [`README` documentation](https://github.com/phil-markarian/portainer-templates/tree/main/.github/README.md), or [`workflows` automations](https://github.com/phil-markarian/portainer-templates/tree/main/.github/workflows) - then raise an issue or PR in this repository.
 
 If you encounter an issue with any container included here, please raise a ticket/PR on the up-stream repo, **<ins>not in this repository</ins>**.
 This project simply compiles templates listed in the [Sources](#sources) into a single manifest, so once a fix has been pushed out upstream, it will be available here.
@@ -755,7 +807,7 @@ Or, to make changes to the website, see the [Website](#website) section below.
 
 Before raising an issue or editing a template, please see the [Raising Issues](#raising-issues) section above (TL;DR: changes need to be made upstream, NOT in this repo).
 
-If you're new to open source, I've put together some guides in [Git-In](https://github.com/Lissy93/git-into-open-source/), but feel free to reach out if you need any support.
+If you're new to open source, I've put together some guides in [Git-In](https://github.com/phil-markarian/git-into-open-source/), but feel free to reach out if you need any support.
 
 ---
 
@@ -763,18 +815,18 @@ If you're new to open source, I've put together some guides in [Git-In](https://
 There's a simple website, which lists all available templates and shows stats, config options and installation instructions for each app / stack. You can view it at **[portainer-templates.netlify.app](https://portainer-templates.netlify.app/)**<br>
 
 
-The source is located in the [`website`](https://github.com/Lissy93/portainer-templates/tree/website) branch, and it's build as a simple SSR Svelte app (using SvelteKit + TypeScript + SCSS + Vite).
+The source is located in the [`website`](https://github.com/phil-markarian/portainer-templates/tree/website) branch, and it's build as a simple SSR Svelte app (using SvelteKit + TypeScript + SCSS + Vite).
 To make changes to the website, you'll need Node.js and Git installed. Then just run the following commands:
 ```bash
-git clone -b website git@github.com:Lissy93/portainer-templates.git # Clone the website branch
+git clone -b website git@github.com:phil-markarian/portainer-templates.git # Clone the website branch
 cd portainer-templates # Navigate into the directory
 npm i # Install dependencies
 npm run dev # Start the development server
 ```
 
-And to pubish, run `npm run build` then either use `npm start` or host the content of the '/build' directory using a web server of your choice. Alternatively, there's a [Dockerfile](https://github.com/Lissy93/portainer-templates/blob/website/Dockerfile), for easy deployment :)
+And to pubish, run `npm run build` then either use `npm start` or host the content of the '/build' directory using a web server of your choice. Alternatively, there's a [Dockerfile](https://github.com/phil-markarian/portainer-templates/blob/website/Dockerfile), for easy deployment :)
 
-Note that it's not required to make any changes to the website when adding a new template or templates source, as data is fetched directly from [`templates.json`](https://github.com/Lissy93/portainer-templates/blob/main/templates.json) in the repo's main branch - so should show up automatically once your changes are merged.
+Note that it's not required to make any changes to the website when adding a new template or templates source, as data is fetched directly from [`templates.json`](https://github.com/phil-markarian/portainer-templates/blob/main/templates.json) in the repo's main branch - so should show up automatically once your changes are merged.
 
 Here's your markdown updated with the auto-inserted content for apps and sources. This is assuming the content for apps and sources has been generated correctly as described:
 
