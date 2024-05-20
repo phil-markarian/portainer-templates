@@ -451,3 +451,56 @@ MANUAL EDIT -organizrtools/organizr-v2 and organizrtools/organizr are depreciate
 2024-05-20 14:36:59,984 - INFO - No new templates found in mediadepot_templates.
 2024-05-20 14:37:00,447 - INFO - No new templates found in shmolf_templates.
 2024-05-20 14:37:00,923 - INFO - No new templates found in portainer_templates.
+2024-05-20 19:17:09,483 - INFO - No new templates found in dnburgess_templates.
+2024-05-20 19:17:09,797 - INFO - No new templates found in qballjos_templates.
+2024-05-20 19:17:10,130 - INFO - No new templates found in selfhostedpro_templates.
+2024-05-20 19:17:10,505 - INFO - No new templates found in technorabilia_templates.
+2024-05-20 19:17:10,918 - INFO - No new templates found in mikestraney_templates.
+2024-05-20 19:17:11,331 - INFO - No new templates found in xneo1_templates.
+2024-05-20 19:17:11,806 - INFO - No new templates found in novaspirit_templates.
+2024-05-20 19:17:12,217 - ERROR - Error fetching source file donpablonow_templates: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/donpablonow/awesome-saas/master/Template/portainer-v2.json
+2024-05-20 19:17:12,655 - INFO - No new templates found in mediadepot_templates.
+2024-05-20 19:17:13,048 - INFO - No new templates found in mycroftwilde_templates.
+2024-05-20 19:17:13,169 - INFO - No new templates found in mediadepot_templates.
+2024-05-20 19:17:13,603 - INFO - No new templates found in shmolf_templates.
+2024-05-20 19:17:13,719 - INFO - No new templates found in portainer_templates.
+2024-05-20 19:17:14,186 - INFO - New templates found in olivercullimore_templates: ['Airsonic', 'Authelia', 'Bazarr', 'Beets', 'Bitwarden RS', 'Booksonic', 'EmbyStat', 'Headphones', 'Heimdall', 'Homer', 'Huginn', 'Invoice Ninja', 'Jackett', 'Jellyfin', 'Kodi Headless', 'LazyLibrarian', "Let's Encrypt", 'LibreSpeed', 'Lychee', 'MariaDB', 'phpmyadmin', 'McMyAdmin 2', 'Medusa', 'Minetest', 'Minisatip', 'Mstream', 'Murmur', 'MusicBrainz', 'Muximux', 'Mylar', 'Nextcloud', 'Nginx', 'Nginx Official', 'Nginx Proxy Manager', 'NZBGet', 'NZBHydra 2', 'Ombi', 'OpenVPN Access Server', 'WireGuard', 'Organizr v2', 'OScam', 'PhotoShow', 'Snibox', 'Bookstack', 'Chevereto', 'Chowdown', 'Calibre Web', 'Cardigann', 'Code Server', 'Codiad', 'COPS', 'CouchPotato', 'Daapd', 'DashMachine', 'Davos', 'DeeMix', 'Deluge', 'Domoticz', 'Duck DNS', 'Cloudflare DDNS', 'Duplicati', 'Emby', 'FileBrowser', 'FreshRSS', 'Gazee', 'Grocy', 'Firefox', 'FirefoxV2', 'Google Chrome', 'Guacamole', 'HTPC Manager', 'lidarr', 'Pi-Hole', 'Piwigo', 'Plex', 'Plex Requests', 'ProjectSend', 'ProtonMail Bridge', 'Pritunl', 'Pydio', 'qBittorrent', 'Quassel IRC', 'Radarr', 'Reactive-Resume', 'Resilio Sync', 'ruTorrent', 'SABnzbd', 'Shiori', 'SickChill', 'SickGear', 'SmokePing', 'Sonarr', 'SyncThing', 'Tautulli', 'TheLounge', 'TiddlyWiki', 'Transmission', 'Transmission-OpenVPN', 'Tiny Tiny RSS', 'Tvheadend', 'Tvhproxy', 'EETV Plex Proxy', 'Ubooquity', 'UniFi Controller', 'Watchtower', 'WebGrab+Plus', 'Whoogle', 'Wikijs', 'YouTubeDL-Material', 'MeTube (YouTubeDL)', 'UniFi Video', 'Yacht', 'ZNC', 'GOPHISH', 'Seafile', 'Dozzle', 'Wallbag', 'GitLab Runner', 'Jetbrains TeamCity Server', 'Jetbrains TeamCity Agent', 'Jetbrains TeamCity Agent Docker', 'Jetbrains TeamCity Stack', 'TestProject Agent Browser Stack', 'Media Grabber Worker with Redis', 'Media Grabber Worker with Proxy', 'Docker Registry', 'Caddy', 'PostgreSQL', 'Mongo', 'CockroachDB', 'CrateDB', 'Elasticsearch', 'InfluxDB', 'Grafana', 'Gitlab CE', 'Strapi', 'Miniflux', 'MagicMirror²', 'geo Energy Data']
+2024-05-20 19:17:14,313 - INFO - Saving to /root/portainer-templates/sources/olivercullimore_templates.json
+2024-05-20 19:17:25,013 - INFO - Validation successful for /root/portainer-templates/lib/../sources/olivercullimore_templates.json
+2024-05-20 19:17:25,013 - INFO - Updated fields for Headphones: {description}
+2024-05-20 19:17:25,013 - INFO - Updated fields for Invoice Ninja: {image} fetched from Docker Hub
+2024-05-20 19:17:25,013 - INFO - Updated fields for Nextcloud: {image} fetched from Docker Hub
+2024-05-20 19:17:25,013 - INFO - Updated fields for Nginx Proxy Manager: {image} fetched from Docker Hub
+2024-05-20 19:17:25,013 - INFO - Updated fields for WireGuard: {image} fetched from Docker Hub
+2024-05-20 19:17:25,013 - INFO - Updated fields for Bookstack: {image} fetched from Docker Hub
+2024-05-20 19:17:25,013 - INFO - Updated fields for Firefox: {image} fetched from Docker Hub
+2024-05-20 19:17:25,013 - INFO - Updated fields for Google Chrome: {image} fetched from Docker Hub
+2024-05-20 19:17:25,013 - INFO - Updated fields for Pritunl: {image} fetched from Docker Hub
+2024-05-20 19:17:25,013 - INFO - Updated fields for SmokePing: {description}
+2024-05-20 19:17:25,013 - INFO - Updated fields for SyncThing: {description}
+2024-05-20 19:17:25,013 - INFO - Updated fields for UniFi Controller: {description}
+2024-05-20 19:17:25,013 - INFO - Updated fields for Seafile: {image} fetched from Docker Hub
+2024-05-20 19:17:25,013 - INFO - Updated fields for Jetbrains TeamCity Stack: {image} fetched from Docker Hub
+2024-05-20 19:17:25,013 - INFO - Updated fields for TestProject Agent Browser Stack: {image} fetched from Docker Hub
+2024-05-20 19:17:25,013 - INFO - Updated fields for Media Grabber Worker with Redis: {image} fetched from Docker Hub
+2024-05-20 19:17:25,013 - INFO - Updated fields for Media Grabber Worker with Proxy: {image} fetched from Docker Hub
+2024-05-20 19:17:25,013 - INFO - Updated fields for Strapi: {image} fetched from Docker Hub
+2024-05-20 19:17:25,013 - INFO - Updated fields for Miniflux: {image} fetched from Docker Hub
+2024-05-20 19:17:25,451 - INFO - New templates found in andyyanguk_templates: ['Airsonic', 'Authelia', 'Bazarr', 'Beets', 'Bitwarden Stack', 'Bitwarden RS', 'Bitwarden RS Backup', 'Booksonic', 'Bookstack', 'CodiMD', 'COPS', 'Caddy', 'Calibre Web', 'Cardigann', 'Chevereto', 'Chowdown', 'Code Server', 'Codiad', 'CommandBox', 'ContentBox', 'CouchPotato', 'Daapd', 'DashMachine', 'Davos', 'DeeMix', 'Deluge', 'Domoticz', 'Dozzle', 'Drupal', 'Duck DNS', 'Duplicati', 'Emby', 'EmbyStat', 'FileBrowser', 'FreshRSS', 'Gazee', 'Ghost', 'Gitlab CE', 'Grocy', 'Guacamole', 'HTPC Manager', 'Headphones', 'Heimdall', 'Homer', 'Huginn', 'Invoice Ninja', 'Jackett', 'Jellyfin', 'Jenkins', 'Joomla', 'Jupyter Notebook', 'Kodi Headless', 'LazyLibrarian', "Let's Encrypt", 'LibreSpeed', 'Lychee', 'Magento 2', 'MariaDB Backups', 'Matomo', 'Mautic', 'McMyAdmin 2', 'Medusa', 'Minetest', 'Minio', 'Minisatip', 'Mstream', 'Murmur', 'MusicBrainz', 'Muximux', 'Mylar', 'NZBGet', 'NZBHydra 2', 'Nextcloud', 'Nginx', 'Nginx Proxy Manager', 'OScam', 'Odoo', 'Ombi', 'OpenVPN Access Server', 'Organizr v2', 'PhotoShow', 'phpmyadmin', 'Pi-Hole', 'Piwigo', 'Plesk', 'Plex', 'Plex Requests', 'Plone', 'Pritunl', 'ProjectSend', 'ProtonMail Bridge', 'Pydio', 'Quassel IRC', 'Radarr', 'Reactive-Resume', 'Redmine', 'Resilio Sync', 'Roundcube Mail', 'SABnzbd', 'Scality S3', 'Seafile', 'Shiori', 'SickChill', 'SickGear', 'SmokePing', 'Snibox', 'Sonarr', 'Switch LAN play server', 'SyncThing', 'Tautulli', 'TheLounge', 'TiddlyWiki', 'Tiny Tiny RSS', 'Transmission', 'Transmission-OpenVPN', 'Tvheadend', 'Ubooquity', 'Urbackup', 'Wallabag + SQlite', 'Watchtower', 'WebGrab+Plus', 'Whoogle', 'Wikijs', 'Wordpress + MariaDB', 'Wordpress + MySQL', 'Wowza', 'Yacht', 'YouTubeDL-Material', 'ZNC', 'lidarr', 'qBittorrent', 'ruTorrent']
+2024-05-20 19:17:25,563 - INFO - Saving to /root/portainer-templates/sources/andyyanguk_templates.json
+2024-05-20 19:17:33,427 - INFO - Validation successful for /root/portainer-templates/lib/../sources/andyyanguk_templates.json
+2024-05-20 19:17:33,427 - INFO - Updated fields for Bitwarden Stack: {image} fetched from Docker Hub
+2024-05-20 19:17:33,427 - INFO - Updated fields for Bookstack: {image} fetched from Docker Hub
+2024-05-20 19:17:33,427 - INFO - Updated fields for CodiMD: {image} fetched from Docker Hub
+2024-05-20 19:17:33,427 - INFO - Updated fields for Headphones: {description}
+2024-05-20 19:17:33,427 - INFO - Updated fields for Invoice Ninja: {image} fetched from Docker Hub
+2024-05-20 19:17:33,427 - INFO - Updated fields for MariaDB Backups: {image} fetched from Docker Hub
+2024-05-20 19:17:33,427 - INFO - Updated fields for Matomo: {image} fetched from Docker Hub
+2024-05-20 19:17:33,427 - INFO - Updated fields for Nextcloud: {image} fetched from Docker Hub
+2024-05-20 19:17:33,427 - INFO - Updated fields for Pritunl: {image} fetched from Docker Hub
+2024-05-20 19:17:33,427 - INFO - Updated fields for ProjectSend: {image} fetched from Docker Hub
+2024-05-20 19:17:33,427 - INFO - Updated fields for Seafile: {description} fetched from Docker Hub
+2024-05-20 19:17:33,427 - INFO - Updated fields for SmokePing: {description}
+2024-05-20 19:17:33,427 - INFO - Updated fields for SyncThing: {description}
+2024-05-20 19:17:33,427 - INFO - Updated fields for Wordpress + MariaDB: {image} fetched from Docker Hub
+2024-05-20 19:17:33,427 - INFO - Updated fields for Wordpress + MySQL: {image} fetched from Docker Hub
